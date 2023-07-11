@@ -188,19 +188,22 @@ h1 {
 
 .hero_text {
   background: grey;
-  max-width: 250px;
+  /* max-width: 250px; */
   width: 200px;
-  /* 
-  white-space: pre-line;
-  word-break: break-all; */
+  height: 100px;
 
-  hyphens: manual;
+  overflow: overlay;
+
+  white-space: pre-line;
+  word-break: break-all;
+
+  /* hyphens: manual;
 
   overflow: auto;
 
   resize: both;
 
-  word-spacing: 4px;
+  word-spacing: 4px; */
 }
 
 .overflow {
