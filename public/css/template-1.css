@@ -188,20 +188,9 @@ h1 {
 
 .hero_text {
   background: grey;
-  /* max-width: 250px; */
-  width: 200px;
-  height: 100px;
-  overflow: overlay;
-
-  /* white-space: pre-line;
-  word-break: break-all; */
-
-  /* hyphens: manual;
-
-
-  resize: both;
-
-  word-spacing: 4px; */
+  max-width: 1000px;
+  width: 600px;
+  height: 400px;
 }
 
 .overflow {
@@ -217,4 +206,38 @@ h1 {
   text-overflow: ellipsis;
 
   white-space: nowrap;
+}
+
+/* body {
+  background-image: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(79, 50, 255, 0.59) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+} */
+
+.page {
+  /* background-image: url('/img/test2.jpg');
+
+  background-repeat: no-repeat;
+
+  background-position: center right;
+
+  background-attachment: fixed;
+
+  background-size: cover; */
+}
+
+.hero_text {
+  /* background-image: url('/img/test2.jpg');
+  background-attachment: local;
+  height: 50px;
+  overflow: auto; */
+
+  padding: 40px;
+  color: green;
+
+  border-image-source: url('/img/test2.jpg');
+  border-image-width: 10% 10%;
+  border-image-slice: 10% 10%;
 }
